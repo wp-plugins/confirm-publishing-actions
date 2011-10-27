@@ -54,7 +54,7 @@ Paste the following code snippet in the `functions.php` file of your WordPress t
 
 `function cpa_qp_dequeue( $hook )
 {
-	if ( is_plugin_active( 'cpa/cpa.php' ) && class_exists( 'CPA_Confirm_Publishing_Actions' ) )
+	if ( is_plugin_active( 'confirm-publishing-actions/cpa.php' ) && class_exists( 'CPA_Confirm_Publishing_Actions' ) )
 	{
 		if( 'index.php' != $hook )
         		return;
@@ -70,7 +70,7 @@ With `get_post_type()`, a native WordPress function, you can enable or disable p
 
 `function cpa_pt_dequeue( $type )
 {
-	if ( is_plugin_active( 'cpa/cpa.php' ) && class_exists( 'CPA_Confirm_Publishing_Actions' ) )
+	if ( is_plugin_active( 'confirm-publishing-actions/cpa.php' ) && class_exists( 'CPA_Confirm_Publishing_Actions' ) )
 	{
 		global $post;
 		$type = get_post_type( $post );
@@ -88,7 +88,7 @@ With `current_user_can()`, a native WordPress function, you can enable or disabl
 
 `function cpa_cap_dequeue()
 {
-	if ( is_plugin_active( 'cpa/cpa.php' ) && class_exists( 'CPA_Confirm_Publishing_Actions' ) )
+	if ( is_plugin_active( 'confirm-publishing-actions/cpa.php' ) && class_exists( 'CPA_Confirm_Publishing_Actions' ) )
 	{
 		if( ! current_user_can( 'manage_options' ) )
         		return;
