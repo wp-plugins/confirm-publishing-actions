@@ -4,7 +4,7 @@ Donate link: http://www.codezilla.nl/donate/
 Tags: publish, delete, update, submit, confirm, confirmation, quickpress, translation-ready
 Requires at least: 3.1
 Tested up to: 3.3
-Stable tag: 1.0.1
+Stable tag: 1.1.2
 License: GPLv2
 
 Prompts a user to click a confirm button whenever he tries to submit, publish, update or delete a post.
@@ -17,7 +17,7 @@ Once activated, the plugin will intercept publishing actions on the following ad
 
 Requires WordPress version 3.1 or higher.
 
-Features in version 1.0.1 include:
+Features in version 1.1.2 include:
 
 * Localization support
 
@@ -104,7 +104,7 @@ add_action( 'admin_enqueue_scripts', 'cpa_cap_dequeue' );`
 
 == Changelog ==
 
-= 1.0.1 =
+= 1.1.2 =
 
 * Minified JS
 
@@ -114,7 +114,7 @@ add_action( 'admin_enqueue_scripts', 'cpa_cap_dequeue' );`
 
 == Upgrade Notice ==
 
-= 1.0.1 =
+= 1.1.2 =
 
 Minified JS
 
