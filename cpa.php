@@ -1,17 +1,17 @@
 <?php
 /*
 Plugin Name: Confirm Publishing Actions
-Plugin URI: http://www.codezilla.nl/wordpress/plugin/confirm-publishing-actions/
+Plugin URI: http://peterherrel.com/wordpress/plugins/confirm-publishing-actions/
 Description: Confirm Publishing Actions is a WordPress plugin that prompts a user to click a confirm (or cancel) button whenever he is trying to submit, publish, update or delete a WordPress post. Simple, lightweight, customizable and translation-ready.
 Version: 1.1.2
 Author: donutz
-Author URI: http://www.codezilla.nl/
+Author URI: http://peterherrel.com/
 License: GPL2
 Text Domain: pjh-cpa
 Domain Path: /inc/lang
 */
 
-/*  Copyright 2011  Peter J. Herrel  (email : codezilla.nl@gmail.com)
+/*  Copyright 2011  Peter J. Herrel  (email : peterherrel [at] gmail.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -116,9 +116,9 @@ class CPA_Confirm_Publishing_Actions_Options
 		$base = CPA_Confirm_Publishing_Actions_Options::cpa_confirm_publishing_actions_get_basename();
 		if ( $file == $base )
 		{
-			$links[] = '<a href="http://www.codezilla.nl/wordpress/plugin/confirm-publishing-actions/">' . __( 'Documentation', 'pjh-cpa' ) . '</a>';
-			$links[] = '<a href="http://www.codezilla.nl/wordpress/plugin/confirm-publishing-actions/">' . __( 'Support', 'pjh-cpa' ) . '</a>';
-			$links[] = '<a href="http://www.codezilla.nl/donate/">' . __( 'Donate', 'pjh-cpa' ) . '</a>';
+			$links[] = '<a href="http://wordpress.org/extend/plugins/confirm-publishing-actions/">' . __( 'Documentation', 'pjh-cpa' ) . '</a>';
+			$links[] = '<a href="http://wordpress.org/support/plugin/confirm-publishing-actions">' . __( 'Support', 'pjh-cpa' ) . '</a>';
+			$links[] = '<a href="http://peterherrel.com/donate/">' . __( 'Donate', 'pjh-cpa' ) . '</a>';
 		}
 		return $links;
 	}

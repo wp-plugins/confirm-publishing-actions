@@ -1,9 +1,9 @@
 === Confirm Publishing Actions ===
 Contributors: donutz
-Donate link: http://www.codezilla.nl/donate/
+Donate link: http://peterherrel.com/donate/
 Tags: publish, delete, update, submit, confirm, confirmation, quickpress, translation-ready
 Requires at least: 3.1
-Tested up to: 3.3
+Tested up to: 3.4.1
 Stable tag: 1.1.2
 License: GPLv2
 
@@ -130,8 +130,8 @@ The Confirm Publishing Actions plugin for WordPress is released under GPLv2, you
 
 = Support =
 
-Visit the [plugin homepage](http://www.codezilla.nl/wordpress/plugin/confirm-publishing-actions/ "plugin homepage") or find support at the [WordPress international forums](http://wordpress.org/support/forum/plugins-and-hacks/ "WordPress international forums").
+Visit the [plugin homepage](http://peterherrel.com/wordpress/plugins/confirm-publishing-actions/ "plugin homepage") or find support at the [WordPress international forums](http://wordpress.org/support/plugin/confirm-publishing-actions/ "WordPress international forums").
 
 = Donate =
 
-If you like the Confirm Publishing Actions plugin and use it lot, please consider making a [donation](http://www.codezilla.nl/donate/ "donation"). Thanks!
+If you like the Confirm Publishing Actions plugin and use it lot, please consider making a [donation](http://peterherrel.com/donate/ "donation"). Thanks!
