@@ -116,9 +116,9 @@ class CPA_Confirm_Publishing_Actions_Options
 		$base = CPA_Confirm_Publishing_Actions_Options::cpa_confirm_publishing_actions_get_basename();
 		if ( $file == $base )
 		{
-			$links[] = '<a href="http://wordpress.org/extend/plugins/confirm-publishing-actions/">' . __( 'Documentation', 'pjh-cpa' ) . '</a>';
-			$links[] = '<a href="http://wordpress.org/support/plugin/confirm-publishing-actions">' . __( 'Support', 'pjh-cpa' ) . '</a>';
-			$links[] = '<a href="http://peterherrel.com/donate/">' . __( 'Donate', 'pjh-cpa' ) . '</a>';
+			$links[] = '<a href="http://peterherrel.com/wordpress/plugins/confirm-publishing-actions/">' . __( 'Documentation', 'pjh-cpa' ) . '</a>';
+			$links[] = '<a href="http://peterherrel.com/wordpress/plugins/confirm-publishing-actions/">' . __( 'Support', 'pjh-cpa' ) . '</a>';
+			$links[] = '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H23P4H8CHF95N">' . __( 'Donate', 'pjh-cpa' ) . '</a>';
 		}
 		return $links;
 	}
