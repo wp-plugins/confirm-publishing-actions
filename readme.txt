@@ -134,4 +134,4 @@ Visit the [plugin homepage](http://peterherrel.com/wordpress/plugins/confirm-pub
 
 = Donate =
 
-If you like the Confirm Publishing Actions plugin and use it lot, please consider making a [donation](http://peterherrel.com/donate/ "donation"). Thanks!
+If you like the Confirm Publishing Actions plugin and use it lot, please consider making a [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H23P4H8CHF95N "donation"). Thanks!
