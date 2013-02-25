@@ -1,6 +1,6 @@
 === Confirm Publishing Actions ===
 Contributors: donutz
-Donate link: http://www.codezilla.nl/donate/
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H23P4H8CHF95N
 Tags: publish, delete, update, submit, confirm, confirmation, quickpress, translation-ready
 Requires at least: 3.1
 Tested up to: 3.5.1
