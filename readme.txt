@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: publish, delete, update, submit, confirm, confirmation, quickpress, translation-ready
 Requires at least: 3.1
 Tested up to: 3.5.1
-Stable tag: 1.1.2
+Stable tag: 1.2
 License: GPLv2
 
 Prompts a user to click a confirm button whenever he tries to submit, publish, update or delete a post.
@@ -15,18 +15,25 @@ Confirm Publishing Actions is a WordPress plugin that prompts a user to click a 
 
 Once activated, the plugin will intercept publishing actions on the following admin pages: `post.php`, `edit-post.php`, `edit.php` and `index.php` (QuickPress dashboard widget).
 
-Requires WordPress version 3.1 or higher.
-
-Features in version 1.1.2 include:
+Features in version 1.2 include:
 
 * Localization support
 
 == Installation ==
 
-1. Unzip the download package
-2. Upload the folder including all files and sub directories to the `/wp-content/plugins/` directory.
-3. Activate the plugin through the WordPress Plugins menu
-4. Done!
+= Minimum Requirements =
+
+* WordPress 3.1 or higher
+
+= Automatic installation =
+
+Log in to your WordPress admin panel, navigate to the Plugins menu and use the search form to search for this plugin. Click Install and WordPress will automatically complete the installation. 
+
+= Manual installation =
+
+1. Download the plugin to your computer and unzip it
+2. Use an FTP program, or your hosting control panel, to upload the unzipped plugin folder to the plugin directory of your WordPress installation.
+3. Log in to your WordPress admin panel and activate the plugin from the Plugins menu.
 
 == Frequently Asked Questions ==
 
@@ -34,15 +41,15 @@ Features in version 1.1.2 include:
 
 There are currently no settings to configure, however with a little php magic you'll be able to do some customization (see below in this FAQ).
 
-If you think an administration panel is absolutely necessary for this plugin, please submit a feature request on the plugin homepage.
+If you think an administration panel is absolutely necessary for this plugin, please submit a feature request.
 
 = How do I change the text of the dialogue? = 
 
 You can use the [CodeStyling Localization](http://wordpress.org/extend/plugins/codestyling-localization/ "CodeStyling Localization") plugin (or any other translation tool) to modify the default text.
 
-= How do I translate `%1$s`? What does it mean? =
+= How do I translate %1$s? What does it mean? =
 
-`%1$s` is a placeholder that represents the singular name of a WordPress post type. You don't need to translate it, just copy and use it exactly as is.
+%1$s is a placeholder that represents the singular name of a WordPress post type. You don't need to translate it, just copy and use it exactly as is.
 
 = How do I change the look and feel of the dialog box? = 
 
@@ -104,6 +111,11 @@ add_action( 'admin_enqueue_scripts', 'cpa_cap_dequeue' );`
 
 == Changelog ==
 
+= 1.2 =
+
+* plugin code overhaul
+* i18n fix, props inbytesinc
+
 = 1.1.2 =
 
 * Minified JS
@@ -113,6 +125,10 @@ add_action( 'admin_enqueue_scripts', 'cpa_cap_dequeue' );`
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.2 =
+
+plugin code overhaul, i18n fix (props inbytesinc)
 
 = 1.1.2 =
 
@@ -126,7 +142,7 @@ Initial release
 
 = License =
 
-The Confirm Publishing Actions plugin for WordPress is released under GPLv2, you can use it free of charge on your personal or commercial blog.
+The Confirm Publishing Actions plugin for WordPress is released under GPLv2, you can use it free of charge on your personal or commercial website.
 
 = Support =
 
