@@ -1,1 +1,38 @@
-var $j=jQuery.noConflict();$j(document).ready(function(){$j("a.submitdelete").click(function(){return confirm(cpa_l10n_obj.confirm_delete)});$j("input#publish").click(function(){var a=$j(this);var b=a.val();if(b=="Submit for Review"){return confirm(cpa_l10n_obj.confirm_submit)}if(b=="Publish"){return confirm(cpa_l10n_obj.confirm_publish)}if(b=="Update"){return confirm(cpa_l10n_obj.confirm_update)}});$j("#submitpost #ajax-loading, #submitpost .ajax-loading").hide()});
+jQuery(document).ready(function()
+{
+    jQuery("a.submitdelete").click(function()
+    {
+        var c = true;
+        c = confirm(cpa_l10n_obj.confirm_delete);
+        if (!c)
+        {
+            jQuery("#submitpost .spinner").hide();
+            jQuery("input#publish").removeClass("button-primary-disabled");
+        }
+        return c;
+    });
+    jQuery("input#publish").click(function()
+    {
+        var a = jQuery(this).val();
+        var c = true;
+        
+        if (a == cpa_l10n_obj.submit)
+        {
+            c = confirm(cpa_l10n_obj.confirm_submit);
+        }
+        if (a == cpa_l10n_obj.publish)
+        {
+            c = confirm(cpa_l10n_obj.confirm_publish);
+        }
+        if (a == cpa_l10n_obj.update)
+        {
+            c = confirm(cpa_l10n_obj.confirm_update);
+        }
+        if (!c)
+        {
+            jQuery("#submitpost .spinner").hide();
+            jQuery("input#publish").removeClass("button-primary-disabled");
+        }
+        return c;
+    });
+});
